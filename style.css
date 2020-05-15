@@ -1,0 +1,192 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #111111;
+}
+
+.header {
+    position: fixed;
+    margin-top: 0;
+    width: 100vw;
+    height: 80px;
+    background: #111111;
+    color: aliceblue;
+}
+
+#name-logo {
+    /* font-family: 'Muli', sans-serif; */
+    font-family: 'Play';
+    font-size: 30px;
+    font-weight: bolder;
+    float: left;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+#nav-bar {
+    list-style-type: none;
+    float: right;
+    padding-top: 8px;
+    margin-right: 20px;
+}
+
+#nav-bar li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 1.5em;
+}
+
+#nav-bar li::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #F29E4C;
+    transition: width .3s;
+}
+
+#nav-bar li:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+#duolan-img-wrapper {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 50%;
+}
+
+.text {
+    display: block;
+    color: #FBF9F5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 70%;
+    font-size: 1.5em;
+    /* font-family: 'Open Sans'; */
+    font-family: 'Play';
+}
+
+p {
+    font-weight: lighter;
+    word-spacing: 0.1em;
+}
+
+p a {
+    color: #F29E4C;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    clear: both;
+    display: block;
+    color: #FBF9F5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    width: 70%;
+    font-family: 'Play';
+    font-size: 1.5em;
+}
+
+.content li {
+    margin-bottom: 10px;
+}
+
+li span {
+    color: #F29E4C;
+}
+
+#experience .company {
+    font-size: .8em;
+}
+
+#experience .title {
+    color: #F29E4C;
+    text-decoration: none;
+}
+
+#experience .date {
+    font-size: 0.7em;
+    margin-left: 30px;
+}
+
+.job-experience {
+    margin-bottom: 60px;
+}
+
+.job-experience-content {
+    padding-left: 80px;
+}
+
+
+/* .project {
+    margin-bottom: 100px;
+} */
+
+.project-img {
+    clear: both;
+    float: left;
+    height: 500px;
+}
+
+.project-text {
+    float: left;
+    width: 45%;
+    margin-top: -40px;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #F29E4C;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.project-text h2 {
+    color: #F29E4C;
+}
+
+#contact a {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+    font-size: 35px;
+}
+
+#contact span {
+    font-size: 64px;
+}
+
+#contact a {
+    color: #FBF9F5;
+}
+
+#contact a:hover {
+    color: #F29E4C;
+    text-decoration: none;
+}
+
+.header a {
+    color: #FBF9F5;
+}
+
+.header a:hover {
+    color: #FBF9F5;
+    text-decoration: none;
+}
