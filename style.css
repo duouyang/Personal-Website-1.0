@@ -131,10 +131,9 @@ li span {
     padding-left: 80px;
 }
 
-
-/* .project {
-    margin-bottom: 100px;
-} */
+.project {
+    height: 600px;
+}
 
 .project-img {
     clear: both;
@@ -163,9 +162,10 @@ a:hover {
 }
 
 #contact a {
+    color: #FBF9F5;
     margin-left: 50px;
     margin-right: 50px;
-    padding-top: 50px;
+    /* padding-top: 550px; */
     font-size: 35px;
 }
 
@@ -173,9 +173,7 @@ a:hover {
     font-size: 64px;
 }
 
-#contact a {
-    color: #FBF9F5;
-}
+#contact a {}
 
 #contact a:hover {
     color: #F29E4C;
